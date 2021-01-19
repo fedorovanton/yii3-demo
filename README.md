@@ -24,20 +24,29 @@ DB password: **123456**
 
 #### Command for console
 
-Create new user
-./vendor/bin/yii user/create <login> <password> [isAdmin = 0]
-Assign RBAC role to user
-./vendor/bin/yii user/assignRole <role> <userId>
-Add random content
-./vendor/bin/yii fixture/add [count = 10]
-Migrations
-./vendor/bin/yii migrate/create 
-./vendor/bin/yii migrate/generate 
-./vendor/bin/yii migrate/up 
-./vendor/bin/yii migrate/down 
-./vendor/bin/yii migrate/list
-DB Schema
-./vendor/bin/yii cycle/schema 
-./vendor/bin/yii cycle/schema/php 
-./vendor/bin/yii cycle/schema/clear 
-./vendor/bin/yii cycle/schema/rebuild
+**Create new user**
+
+`./vendor/bin/yii user/create <login> <password> [isAdmin = 0]`
+
+**Assign RBAC role to user**
+
+`./vendor/bin/yii user/assignRole <role> <userId>`
+
+**Add random content**
+
+`./vendor/bin/yii fixture/add [count = 10]`
+
+**Migrations**
+
+`./vendor/bin/yii migrate/create`
+`./vendor/bin/yii migrate/generate`
+`./vendor/bin/yii migrate/up`
+`./vendor/bin/yii migrate/down` 
+`./vendor/bin/yii migrate/list`
+
+**DB Schema**
+
+`./vendor/bin/yii cycle/schema`
+`./vendor/bin/yii cycle/schema/php`
+`./vendor/bin/yii cycle/schema/clear`
+`./vendor/bin/yii cycle/schema/rebuild`
